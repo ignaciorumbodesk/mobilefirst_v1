@@ -1,0 +1,55 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #3D5A80;
+}
+
+/*****************/
+/*****HERO******/
+/*****************/
+.heroImage {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.heroImage img {
+  width: 100%;
+  border: 4px dotted #293241;
+  border-radius: 15%;
+  padding: 5px;
+  background-color: aliceblue;
+  
+}
+
+.heroText {
+  position: absolute;
+  background-color: rgba(152, 193, 217, .9);
+  top: 100px;
+  padding: 2.5% 15%;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.35)
+
+}
+
+.heroText h2, p {
+  color: aliceblue;
+
+}
+
+.heroText h2{
+  font-weight:bolder;
+}
+
+.heroText p {
+  font-weight: 100;
+}
+
+/*****************/
+/*****MAIN******/
+/*****************/
