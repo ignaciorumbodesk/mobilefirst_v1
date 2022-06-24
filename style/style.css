@@ -53,3 +53,8 @@ body {
 /*****************/
 /*****MAIN******/
 /*****************/
+
+main {
+  background-color: beige;
+  width: 90$;
+}
