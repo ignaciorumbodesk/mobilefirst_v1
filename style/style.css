@@ -56,30 +56,31 @@ body {
 /*****************/
 
 main {
-  background-color: #98c1d9;
   margin: 0px auto;
   width: 100%;
   border-radius: 20px;
 }
 
-.secctionOne {
+.secctionContainer {
   width: 345px;
-  margin: 0px auto;
+  margin: 25px auto;
+  border-radius: 20px;
+  background-color: #98c1d9;
 }
 
-.imageSecctionOne{
-width: 250px;
-height: 250px;
+.imageSecction {
+ width: 250px;
+ height: 250px;
  margin: 0px auto; 
 }
 
-.imageSecctionOne img {
+.imageSecction img {
   width: 100%;
   border-radius: 50%;
   margin-top: 25px;
 }
 
-.textSecctionOne{
+.textSecction {
   width: 80%;
   text-align: center;
   margin: 50px auto;
@@ -88,12 +89,25 @@ height: 250px;
   font-size: 1.2rem;
 }
 
-.textSecctionOne h2 {
+.textSecction h2 {
   font-weight: 800;
   margin-bottom: 25px;
   color: #293241;
 }
 
-.textSecctionOne p {
+.textSecction p {
   font-weight: 600;
+}
+
+.infoBtn {
+  background-color: beige;
+  width: 145px;
+  padding: 5px;
+  border: 1px dashed #3D5A80;
+  border-radius: 10px;
+  margin: 25px auto;
+}
+
+.us {
+
 }
