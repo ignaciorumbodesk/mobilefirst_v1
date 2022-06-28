@@ -66,4 +66,8 @@
 *.3dm
 *.max
 
+#Copressed
+*.rar
+*.zip
+
 # End of https://www.toptal.com/developers/gitignore/api/images

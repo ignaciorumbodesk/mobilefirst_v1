@@ -52,7 +52,7 @@ body {
 }
 
 /*****************/
-/*****MAIN******/
+/***** MAIN ******/
 /*****************/
 
 main {
@@ -108,6 +108,72 @@ main {
   margin: 25px auto;
 }
 
+/*****************/
+/****** US *******/
+/*****************/
+
 .us {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.us h2 {
+  font-weight: 100;
+  padding-top: 30px ;
+}
+
+.us hr {
+  width: 100px;
+  height: 3px;
+  margin: auto;
+  border-style: none;
+  background: -webkit-linear-gradient(left, orange, blue, #82b2ee);
+  background: -moz-linear-gradient(left, orange, blue, #82b2ee);
+  background: -o-linear-gradient(left, orange, blue, #82b2ee);
+  margin-top: 20px;
+}
+
+.usInfo {
+  width: 100%;
+  background-color: coral;
+}
+
+.usItemInfo h2 {
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.usItemInfo p {
+  font-size: 16px;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.usItemInfo {
+  width: 400px;
+  margin: auto;
+}
+
+.usIconDetail {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40px;
+}
+
+.usIconDetail span {
+  font-size: 80px;
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  padding: 46px;
+  margin: auto;
 
 }
+
+
+
