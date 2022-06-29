@@ -113,9 +113,9 @@ main {
 /*****************/
 
 .us {
-  height: 100px;
   width: 100%;
   text-align: center;
+  background-color: whitesmoke;
 }
 
 .us h2 {
@@ -136,7 +136,6 @@ main {
 
 .usInfo {
   width: 100%;
-  background-color: coral;
 }
 
 .usItemInfo h2 {
@@ -149,17 +148,18 @@ main {
   font-size: 16px;
   margin-top: 20px;
   letter-spacing: 1px;
+  color: #293241;
 }
 
 .usItemInfo {
-  width: 400px;
+  width: 350px;
   margin: auto;
 }
 
 .usIconDetail {
   width: 200px;
   height: 200px;
-  border: 1px solid #dddddd;
+  border: 1.5px solid #dddddd;
   border-radius: 50%;
   margin: 0 auto;
   display: flex;
@@ -168,7 +168,7 @@ main {
 
 .usIconDetail span {
   font-size: 80px;
-  border: 1px solid #dddddd;
+  border: 1.5px solid #dddddd;
   border-radius: 50%;
   padding: 46px;
   margin: auto;
