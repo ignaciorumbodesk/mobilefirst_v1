@@ -215,6 +215,8 @@ main {
 .productItem {
   margin: auto;
   width: 350px;
+  padding: 40px;
+  color: white;
 }
 
 .productItem span {
@@ -222,8 +224,15 @@ main {
   color: white;
 }
 
+.productItem h4 {
+  font-weight: 100;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
 .item1 {
   background: #242424;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .item2 {
@@ -236,4 +245,57 @@ main {
 
 .item4 {
   background: #82b2ee;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.parrafoUno {
+  text-align: justify;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+.contact h1 {
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.contact hr {
+  width: 100px;
+  height: 3px;
+  margin: auto;
+  border-style: none;
+  background: -webkit-linear-gradient(left, orange, blue, #82b2ee);
+  background: -moz-linear-gradient(left, orange, blue, #82b2ee);
+  background: -o-linear-gradient(left, orange, blue, #82b2ee);
+  margin-top: 20px;
+}
+
+.contact p {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #293241;
+}
+
+.contentButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.contentButton button {
+  width: 145px;
+  height: 30px;
+  background-color:#82b2ee;
+  border-style: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 16px;
+  margin: auto;
+}
+
+.btn2 {
+  margin: auto;
 }
