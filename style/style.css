@@ -5,33 +5,40 @@
 }
 
 body {
-  background-color: #3D5A80;
+  background-color: coral;
 }
+
 
 /*****************/
 /*****HERO******/
 /*****************/
+
+.hero {
+  width: 100%;
+}
+
 .heroImage {
-  width: 300px;
-  height: 300px;
+  max-width: 500px;
+  width: 200px;
+  height: 200px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .heroImage img {
   width: 100%;
   border: 4px dotted #293241;
-  border-radius: 15%;
+  border-radius: 35%;
   padding: 5px;
   background-color: aliceblue;
-  
+  text-align: center;
 }
 
 .heroText {
-  position: absolute;
+  width: 100%;
+  text-align: center;
   background-color: rgba(152, 193, 217, .9);
-  top: 100px;
-  padding: 2.5% 15%;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.35)
@@ -58,7 +65,9 @@ body {
 main {
   margin: 0px auto;
   width: 100%;
+  max-width: 1000px;
   border-radius: 20px;
+  padding: 20px;
 }
 
 .secctionContainer {
@@ -101,11 +110,12 @@ main {
 
 .infoBtn {
   background-color: beige;
-  width: 145px;
-  padding: 5px;
+  width: 200px;
+  padding: 16px;
   border: 1px dashed #3D5A80;
   border-radius: 10px;
   margin: 25px auto;
+  cursor: pointer;
 }
 
 /*****************/
@@ -182,7 +192,6 @@ main {
 .products {
   width: 100%;
   text-align: center;
-  background-color: coral;
 }
 
 .products h1 {
@@ -252,6 +261,11 @@ main {
   text-align: justify;
 }
 
+/***********************/
+/******* CONTACT *******/
+/***********************/
+
+
 .contact {
   width: 100%;
   text-align: center;
@@ -285,17 +299,44 @@ main {
   margin-top: 40px;
 }
 
+/*button leer*/
+.btn2 {
+  width: 200px;
+  margin: auto;
+}
+
+/*button content 4*/
 .contentButton button {
-  width: 145px;
-  height: 30px;
+  width: 200px;
+  height: 50px;
   background-color:#82b2ee;
   border-style: none;
   border-radius: 10px;
   color: whitesmoke;
   font-size: 16px;
   margin: auto;
+  transition: opacity 3000ms;
 }
 
-.btn2 {
-  margin: auto;
+.contentButton button:hover {
+  opacity: 0.8;
 }
+
+
+@media screen and (min-width: 800px) {
+
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .heroImage {
+    float: right;
+    width: 500px;
+    height: 500px;
+  }
+  
+}
+
+
+
